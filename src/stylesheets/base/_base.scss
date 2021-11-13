@@ -1,0 +1,43 @@
+html {
+  font-size: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.card-container {
+  height: 450px;
+  padding: $m-size;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  position: relative;
+  box-shadow: 0 0 6px lighten(#3a3a3a, 40%);
+}
+.card-content {
+  width: 100%;
+  text-align: left;
+  height: 45%;
+  padding: $m-size;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+.search-container {
+  padding: $m-size;
+}
+main {
+  margin: $xl-size 4vw;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: $l-size;
+}
+input {
+  padding: $s-size;
+}
